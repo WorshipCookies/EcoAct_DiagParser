@@ -2,15 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace DialogueConstructor
 {
-    class Choice(string ID, string choice, int karma_value) : TextContent
+    [JsonDerivedType(typeof(Dialogue))]
+    public class Choice(string ID, string ChoiceText) : TextContent
     {
         public string ID { get; set; } = ID;
-        public string choice { set; get; } = choice;
-        public int karma_value { set; get; } = karma_value;
+        public string ChoiceText { get; set; } = ChoiceText;
+        public List<Option> Options { get; set; } = new List<Option>();
+
+        public void addOption(int id, string option, int karma_value) 
+        { 
+            Options.Add(new Option(id, option, karma_value));
+        }
 
     }
 }

@@ -1,23 +1,17 @@
+using System.Text.Json.Serialization;
+
 namespace DialogueConstructor
 {
-    class Scene
+    public class Scene(int SceneID)
     {
-        private int SceneID {  get; set; }
-        private string SceneName { get; set; }
-        
-        private Queue<TextContent> Dialogues;
 
-        public Scene(string SceneName)
-        {
-            this.SceneID = SceneID;
-            this.SceneName = SceneName;
-            this.Dialogues = new Queue<TextContent>();
-        }
+        public int SceneID { get; set; } = SceneID;
 
+        public List<TextContent> Dialogues { get; set; } = new List<TextContent>();
 
         public void enqueueDiag(TextContent text)
         {
-            this.Dialogues.Enqueue(text);
+            this.Dialogues.Add(text);
         }
 
     }

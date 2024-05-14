@@ -8,9 +8,9 @@ namespace DialogueConstructor
 {
     public class Consequence
     {
-        private string choice_id {  get; set; }
-        private string consequence_id { get; set; }
-        private List<Tuple<int, string>> consequences { get; set; }
+        public string choice_id {  get; set; }
+        public string consequence_id { get; set; }
+        public List<Tuple<int, string>> consequences { get; set; }
 
         // Construtor Class
         public Consequence(string choice_id, string consequence_id) 

@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DialogueConstructor
 {
-    abstract class TextContent
+    public abstract class TextContent
     {
-        
+
     }
 }

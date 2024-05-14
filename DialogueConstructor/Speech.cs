@@ -8,7 +8,7 @@ namespace DialogueConstructor
 {
     public class Speech(string text, Character C)
     {
-        private Character character { get; set; } = C;
-        private string text { get; set; } = text;
+        public Character character { get; set; } = C;
+        public string text { get; set; } = text;
     }
 }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj": {}
+    "C:\\Users\\louis\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj": {
+    "C:\\Users\\louis\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj",
+        "projectUniqueName": "C:\\Users\\louis\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj",
         "projectName": "DialogueConstructor",
-        "projectPath": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj",
-        "packagesPath": "C:\\Users\\Phil Lopes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\obj\\",
+        "projectPath": "C:\\Users\\louis\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\DialogueConstructor.csproj",
+        "packagesPath": "C:\\Users\\louis\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\louis\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Phil Lopes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\louis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,16 +38,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
