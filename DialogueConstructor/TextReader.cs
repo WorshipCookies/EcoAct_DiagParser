@@ -201,7 +201,10 @@ namespace DialogueConstructor
                 {
                     // Build Consequence List
                     string[] split = line.Split(":");
-                    consequence.addConsequence(new Tuple<int, string>(Int32.Parse(split[0]), split[1]));
+                    int option_id = Int32.Parse(split[0]);
+                    string text_option = split[1].Split("_")[0];
+                    int karma = Int32.Parse(split[1].Split("_")[1]);
+                    consequence.addConsequence(new Tuple<int, string, int>(option_id,text_option,karma));
                 }
 
                 line = sr.ReadLine(); // Read Next Line

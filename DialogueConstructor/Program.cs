@@ -15,19 +15,29 @@ namespace DialogueConstructor
 {
     public class Program
     {
-
         public static void Main(string[] args)
         {
-            string path = System.AppDomain.CurrentDomain.BaseDirectory + "Scene Location\\";
-            Console.WriteLine(path);
+            string input_path = System.AppDomain.CurrentDomain.BaseDirectory + "Scene Location\\";
+            string output_path = System.AppDomain.CurrentDomain.BaseDirectory + "Output\\";
 
-            string filename = "Scene2";
+            Console.WriteLine("----------------- Make Sure All Scene Files are in the Scene Location Folder -------------\n\n");
 
-            TextReader tr = new TextReader(path + filename + ".txt");
-            Scene scence = tr.TextParser(1);
-            var jsonVal = Newtonsoft.Json.JsonConvert.SerializeObject(scence);
+            foreach (string filename in Directory.GetFiles(input_path))
+            {
+                Console.WriteLine("Reading File in " + filename);
 
-            File.WriteAllText(System.AppDomain.CurrentDomain.BaseDirectory + "Output\\" + filename + ".json", jsonVal.ToString());
+                TextReader tr = new TextReader(filename);
+                Scene scence = tr.TextParser(1);
+                var jsonVal = Newtonsoft.Json.JsonConvert.SerializeObject(scence);
+
+                string outputfile = System.IO.Path.GetFileName(filename);
+
+                File.WriteAllText(output_path + outputfile.Split('.')[0] + ".json", jsonVal.ToString());
+
+                Console.WriteLine("Finished with File " + outputfile + ".\n\n");
+            }
+
+            Console.WriteLine("\nAll Processing was Completed. \nCheck Folder: " + output_path);
         }
     }
 }

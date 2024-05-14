@@ -10,7 +10,7 @@ namespace DialogueConstructor
     {
         public string choice_id {  get; set; }
         public string consequence_id { get; set; }
-        public List<Tuple<int, string>> consequences { get; set; }
+        public List<Tuple<int, string, int>> consequences { get; set; }
 
         // Construtor Class
         public Consequence(string choice_id, string consequence_id) 
@@ -18,11 +18,11 @@ namespace DialogueConstructor
             this.choice_id = choice_id;
             this.consequence_id = consequence_id;
 
-            consequences = new List<Tuple<int, string>>();
+            consequences = new List<Tuple<int, string, int>>();
         }
 
         // Adder
-        public void addConsequence(Tuple<int, string> con)
+        public void addConsequence(Tuple<int, string, int> con)
         {
             this.consequences.Add(con);
         }
