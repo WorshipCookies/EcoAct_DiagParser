@@ -9,6 +9,7 @@ using System.Text;
 using Newtonsoft.Json;
 using System.Threading.Tasks;
 using static System.Net.Mime.MediaTypeNames;
+using System.Xml.Serialization;
 
 
 namespace DialogueConstructor
@@ -27,9 +28,9 @@ namespace DialogueConstructor
                 Console.WriteLine("Reading File in " + filename);
 
                 TextReader tr = new TextReader(filename);
-                Scene scence = tr.TextParser(1);
-                var jsonVal = Newtonsoft.Json.JsonConvert.SerializeObject(scence);
+                Scene scene = tr.TextParser(1);
 
+                var jsonVal = Newtonsoft.Json.JsonConvert.SerializeObject(scene);
                 string outputfile = System.IO.Path.GetFileName(filename);
 
                 File.WriteAllText(output_path + outputfile.Split('.')[0] + ".json", jsonVal.ToString());

@@ -7,8 +7,7 @@ using System.Threading.Tasks;
 
 namespace DialogueConstructor
 {
-    [JsonDerivedType(typeof(Dialogue))]
-    public class Choice(string ID, string ChoiceText) : TextContent
+    public class Choice(string ID, string ChoiceText) : TextContent("Choice")
     {
         public string ID { get; set; } = ID;
         public string ChoiceText { get; set; } = ChoiceText;

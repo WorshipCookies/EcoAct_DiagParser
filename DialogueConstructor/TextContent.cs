@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace DialogueConstructor
 {
-    public abstract class TextContent
+    public class TextContent(string diag)
     {
 
+        public string DiagType { get; set; } = diag;
     }
 }

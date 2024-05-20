@@ -2,7 +2,7 @@ using System.Reflection.PortableExecutable;
 
 namespace DialogueConstructor
 {
-    public class Dialogue() : TextContent
+    public class Dialogue() : TextContent("Dialogue")
     {
         public int ID { get; set; } = 0;
         
