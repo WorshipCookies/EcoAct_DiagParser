@@ -1,0 +1,23 @@
+Scene 5
+[Narrator]
+The next day, you’re happy to be back in the office – the air conditioner is a life saver. There is an urgent request to  change the bathroom hand drying system.  
+[Choice]
+You choose: 
+[C5_1] 
+1: "Electric dryers - not need to waste paper."_-3
+2: "Paper towels - it’s more hygienic."_-2
+3: "Cloth towels - more environmentally friendly."_+3
+[\C5_1]
+[\Choice]
+This feels good. It’s not just a desk job, you are making meaningful decisions here. 
+And your house mates could not be more wrong about WODA–
+[\Narrator]
+[Dialogue] 
+C_Mr. Avery: “What do you think you’re doing?”
+Mr. Avery stands next to you, staring daggers, waiting for an answer. You don’t know what the answer might be. He looks angry. You begin to mutter some words but he cuts you. 
+[Consequence]
+C_Mr. Avery: 
+[C5_1.1]”Do you have any idea how much money we waste with those electric dryers? What’s wrong with paper?!”_0
+[C5_1.2]”Paper towels? Do you know how many people work in this building? We can’t be wasting money on that! Why didn’t you get the electric dryers?”_0
+[C5_1.3]”Cloth towels? That spreads bacteria! Why did you change the paper towels? Don’t tell me it’s some eco-crap!”_0
+[\Dialogue] 
