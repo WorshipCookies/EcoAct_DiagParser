@@ -1,9 +1,9 @@
-﻿namespace DialogueConstructor
-{
-    public class Character(string name, string ID)
-    {
-        public string Name { get; set; } = name;
-        public string ID { get; set; } = ID;
+﻿using System.Runtime.Serialization;
 
-    }
+
+public class Character(string name, string ID)
+{
+    public string Name { get; set; } = name;
+    public string ID { get; set; } = ID;
+
 }

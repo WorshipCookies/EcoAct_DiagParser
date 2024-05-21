@@ -5,38 +5,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\choice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\dialogue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\textcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\textcontent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\textreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\textreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\speech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\speech.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\consequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\consequence.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\character.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|c:\\users\\phil lopes\\onedrive\\lusofona\\projects\\ecoact - project\\ecoact_diagparser\\dialogueconstructor\\scene location\\scene1.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{35174729-B37F-4C32-97A7-664674D922A2}|DialogueConstructor\\DialogueConstructor.csproj|solutionrelative:dialogueconstructor\\scene location\\scene1.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -56,110 +24,11 @@
               "RelativeDocumentMoniker": "DialogueConstructor\\Program.cs",
               "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Program.cs",
               "RelativeToolTip": "DialogueConstructor\\Program.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAUwCQAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAA0wB8AAAB3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-13T11:18:07.775Z",
               "IsPinned": true,
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Consequence.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Consequence.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Consequence.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Consequence.cs",
-              "RelativeToolTip": "DialogueConstructor\\Consequence.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:52:29.29Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Speech.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Speech.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Speech.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Speech.cs",
-              "RelativeToolTip": "DialogueConstructor\\Speech.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:43:54.755Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TextReader.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\TextReader.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\TextReader.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\TextReader.cs",
-              "RelativeToolTip": "DialogueConstructor\\TextReader.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:33:48.891Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TextContent.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\TextContent.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\TextContent.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\TextContent.cs",
-              "RelativeToolTip": "DialogueConstructor\\TextContent.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T14:02:16.942Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Dialogue.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Dialogue.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Dialogue.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Dialogue.cs",
-              "RelativeToolTip": "DialogueConstructor\\Dialogue.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:25:09.2Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Choice.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Choice.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Choice.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Choice.cs",
-              "RelativeToolTip": "DialogueConstructor\\Choice.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T11:51:28.858Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Character.cs",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Character.cs",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Character.cs",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Character.cs",
-              "RelativeToolTip": "DialogueConstructor\\Character.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-13T16:45:39.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Scene1.txt",
-              "DocumentMoniker": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Scene Location\\Scene1.txt",
-              "RelativeDocumentMoniker": "DialogueConstructor\\Scene Location\\Scene1.txt",
-              "ToolTip": "C:\\Users\\Phil Lopes\\OneDrive\\Lusofona\\Projects\\EcoAct - Project\\EcoAct_DiagParser\\DialogueConstructor\\Scene Location\\Scene1.txt",
-              "RelativeToolTip": "DialogueConstructor\\Scene Location\\Scene1.txt",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-05-13T15:34:23.304Z"
             }
           ]
         }

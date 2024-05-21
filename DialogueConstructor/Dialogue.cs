@@ -1,4 +1,5 @@
 using System.Reflection.PortableExecutable;
+using System.Runtime.Serialization;
 
 namespace DialogueConstructor
 {
