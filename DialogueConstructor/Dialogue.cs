@@ -3,13 +3,15 @@ using System.Runtime.Serialization;
 
 namespace DialogueConstructor
 {
-    public class Dialogue() : TextContent("Dialogue")
+    public class Dialogue() : TextContent
     {
         public int ID { get; set; } = 0;
         
         public List<Speech> text { get; set; } = [];
 
         public List<Consequence> consequences { get; set; } = [];
+
+        public string DiagType { get; set; } = "Dialogue";
 
         public void addSpeech(string dialog, Character c)
         {

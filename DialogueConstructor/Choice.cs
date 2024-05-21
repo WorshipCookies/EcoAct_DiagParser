@@ -8,11 +8,12 @@ using System.Threading.Tasks;
 
 namespace DialogueConstructor
 {
-    public class Choice(string ID, string ChoiceText) : TextContent("Choice")
+    public class Choice(string ID, string ChoiceText) : TextContent
     {
         public string ID { get; set; } = ID;
         public string ChoiceText { get; set; } = ChoiceText;
         public List<Option> Options { get; set; } = new List<Option>();
+        public string DiagType { get; set; } = "Choice";
 
         public void addOption(int id, string option, int karma_value) 
         { 
